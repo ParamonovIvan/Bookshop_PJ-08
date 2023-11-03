@@ -1,4 +1,4 @@
-# Книжный интернет-магазин на API Google Books
+<h1 align="center">Книжный интернет-магазин на API Google Books</h1>
 
 <br>
 <b>ЗАДАЧА ПРОЕКТА:</b><br>
