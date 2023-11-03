@@ -1,0 +1,33 @@
+{
+  "name": "bookshop_pj-08",
+  "version": "1.0.0",
+  "description": "development of a bookshop for skillfactory",
+  "main": "main.js",
+  "scripts": {
+    "compile-css": "sass src/styles/main.scss dist/main.css",
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "minifyImages": "imagemin src/images/* --out-dir=dist/images"
+  },
+  "author": "ParamonovIvan",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "eslint-webpack-plugin": "^4.0.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "imagemin-cli": "^7.0.0"
+  }
+}

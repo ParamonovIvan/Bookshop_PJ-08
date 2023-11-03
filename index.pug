@@ -1,0 +1,84 @@
+doctype html
+head
+  title Bookshop
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+header
+  .container-header
+    .nav-logo-wrapper
+      a(href='/' title='Main') Bookshop
+    nav
+      ul.header__nav__list
+        li
+          a.header__nav__link.nav-active(href='/' title='Books') books
+        li
+          a.header__nav__link(href='/' title='Audiobooks') audiobooks
+        li
+          a.header__nav__link(href='/' title='Stationery & Gifts') stationery &amp; gifts
+        li
+          a.header__nav__link(href='/' title='Blog') blog
+    .nav-icons__items
+      button.nav-icons__item.user
+      button.nav-icons__item.search
+      button.nav-icons__item.shop-bag
+    .header__nav-burger
+  .nav__hidden
+    ul.nav__hidden__list
+      li
+        a.nav__hidden__link.nav-active(href='/' title='Books') books
+      li
+        a.nav__hidden__link(href='/' title='Audiobooks') audiobooks
+      li
+        a.nav__hidden__link(href='/' title='Stationery & Gifts') stationery &amp; gifts
+      li
+        a.nav__hidden__link(href='/' title='Blog') blog
+main
+  section.banner-slider__wrapper
+    .banner-slider
+      .banner-slider__items
+        .banner-slider__item
+          a(href='/')
+            img(src='./images/banner.png' alt='banner')
+        .banner-slider__item
+          a(href='/')
+            img(src='./images/banner2.png' alt='banner')
+        .banner-slider__item
+          a(href='/')
+            img(src='./images/banner3.png' alt='banner')
+    ol.banner-slider__indicators
+      li.banner-slider__indicator.active
+      li.banner-slider__indicator
+      li.banner-slider__indicator
+    .slider-colored-blocks__wrapper
+      a(href='/')
+        .slider-colored-blocks.violet
+          p.slider-colored-blocks__text
+            | change old book on new
+            img(src='./images/banner-arrow-right.svg' alt='arrow')
+      a(href='/')
+        .slider-colored-blocks.lilac
+          p.slider-colored-blocks__text
+            | top 100 books 2022
+            img(src='./images/banner-arrow-right.svg' alt='arrow')
+  section.books
+    ul.books__list
+      li.books__category.active Architecture
+      li.books__category Art &amp; Fashion
+      li.books__category Biography
+      li.books__category Business
+      li.books__category Crafts &amp; Hobbies
+      li.books__category Drama
+      li.books__category Fiction
+      li.books__category Food &amp; Drink
+      li.books__category Health &amp; Wellbeing
+      li.books__category History &amp; Politics
+      li.books__category Humor
+      li.books__category Poetry
+      li.books__category Psychology
+      li.books__category Science
+      li.books__category Technology
+      li.books__category Travel &amp; Maps
+    .books__container
+      .books__arrow
+      ul.books__cards
+      button.btn.books__load-btn load more

@@ -1,0 +1,18 @@
+﻿@mixin header__nav__link {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12.19px;
+  color: $grey-color;
+}
+    
+@mixin nav-active {
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 12.19px;
+  color: $black-color;
+}
+
+@mixin header__nav__link_hover {
+  color: $black-color;
+}
