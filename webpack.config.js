@@ -17,6 +17,9 @@ module.exports = {
       new HtmlWebpackPlugin({
         template: "./index.pug",
         filename: "index.html"
+      }),
+      new ESLintPlugin({
+        "emitError": false
       })
     ],
     module: {
