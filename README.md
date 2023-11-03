@@ -70,6 +70,6 @@
 • Стараться использовать современный ES6 синтаксис: стрелочные функции, декомпозицию, Spred и т.д.<br>
 • При написании кода стараться следовать принципам KISS (Keep It Short and Simple - не усложняй) и DRY (Don’t Repeat Yourself - не повторяйся).<br><br>
 
-<h3>Результат работы<h3><h4>Страница книжного интернет-магазин на API Google Books</h4>
+<h3>Результат работы:<h3><h4>Страница книжного интернет-магазин на API Google Books</h4>
 
 ![bookshop](https://github.com/ParamonovIvan/Bookshop_PJ-08/assets/131868856/5047d076-f0a3-4794-918d-79ffdc1d5045)
