@@ -1,4 +1,4 @@
-# Книжный интернет-магазин на API Google Books ![bookshop](https://github.com/ParamonovIvan/Bookshop_PJ-08/assets/131868856/33c23532-b181-4d6e-8ac7-b8749617fa87)
+# Книжный интернет-магазин на API Google Books
 
 ### Задача проекта:
 
