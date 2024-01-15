@@ -129,6 +129,22 @@
 
 + При написании кода стараться следовать принципам KISS (Keep It Short and Simple - не усложняй) и DRY (Don’t Repeat Yourself - не повторяйся).
 
+### Иснтрукция для разработки и тестирования
+
++ npm
+
+```
+npm i
+npm run build
+npm run start
+```
++ yarn
+
+```
+yarn
+yarn run start
+```
+
 ### Результат работы:
 #### Страница книжного интернет-магазин на API Google Books
 
