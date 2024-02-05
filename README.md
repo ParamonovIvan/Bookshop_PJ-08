@@ -141,7 +141,7 @@ npm run start
 + yarn
 
 ```
-yarn
+yarn add
 yarn run start
 ```
 
